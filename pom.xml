@@ -56,26 +56,7 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-        <repository>
-            <id>java.net</id>
-            <url>http://download.java.net/maven/2/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>alibaba</id>
-            <url>http://code.alibabatech.com/mvn/releases/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
+            
         <repository>
             <id>sonatype</id>
             <name>sonatype</name>
@@ -87,17 +68,7 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-        <repository>
-            <id>sonatype-release</id>
-            <name>sonatype-release</name>
-            <url>https://oss.sonatype.org/service/local/repositories/releases/content</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
+        
     </repositories>
 
     <properties>
@@ -254,7 +225,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
-                <version>1.1.7-preview_0</version>
+				<version>1.1.6</version>
             </dependency>
             <!-- log -->
             <dependency>
